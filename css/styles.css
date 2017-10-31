@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  border: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: small;
+  background-color: #fff;
+}
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 14px 30px 14px 14px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 15px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #434343;
+}
+
+nav ul li a:hover {
+  text-decoration: underline #434343;
+}
+
+.btn-apps i {
+  vertical-align: middle;
+}
+
+.btn-apps i:hover {
+  color: #000;
+}
+
+.btn-login {
+  border: 1px solid rgb(69, 131, 236);
+  border-radius: 2px;
+  padding: 8px 14px;
+  background-color: rgb(69, 131, 236);
+  font-weight: bold;
+}
+
+.btn-login a {
+  color: #fff;
+  cursor: default;
+}
+
+.btn-login a:hover {
+  text-decoration: none;
+}
+
+.google-container {
+  display: flex;
+  justify-content: center;
+}
+.google-search {
+  width: 575px;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.google-logo img {
+  height: 92px;
+  width: 272px;
+}
+
+.search-container {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  top: 120px;
+}
+
+.search-container #search-form {
+  padding: 12px 0;
+  margin-left: 2px;
+  width: 90%;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.microphone {
+  width: 40px;
+  height: 35px;
+  background: url("../images/microphone.png") no-repeat 50% 50%;
+  position: absolute;
+  top: 2px;
+  left: 520px;  
+}
