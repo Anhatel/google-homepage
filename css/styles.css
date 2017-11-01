@@ -71,7 +71,7 @@ nav ul li a:hover {
 .btn-login {
   border: 1px solid rgb(69, 131, 236);
   border-radius: 2px;
-  padding: 8px 14px;
+  padding: 6px 12px;
   background-color: rgb(69, 131, 236);
   font-weight: bold;
 }
@@ -95,7 +95,6 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
 }
 
 .google-logo img {
@@ -109,8 +108,15 @@ nav ul li a:hover {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
   background-color: #fff;
   width: 100%;
-  position: absolute;
-  top: 120px;
+  margin-top: 25px;
+}
+
+.search-container:hover {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+.search-container:focus {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
 }
 
 .search-container #search-form {
@@ -121,11 +127,34 @@ nav ul li a:hover {
   font-size: 16px;
 }
 
-.microphone {
-  width: 40px;
-  height: 35px;
-  background: url("../images/microphone.png") no-repeat 50% 50%;
-  position: absolute;
-  top: 2px;
-  left: 520px;  
+.btn-container {
+  margin-top: 40px;
+}
+
+.btn-container a {
+  border: 1px solid rgb(242, 242, 242);
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+  background-color: rgb(242, 242, 242);
+  padding: 8px 14px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 3px;
+}
+
+.btn-container a:hover {
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  margin-top: 540px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: flex-end;
+}
+
+footer nav ul li a {
+  color: #666;
 }
